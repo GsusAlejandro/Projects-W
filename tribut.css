@@ -13,7 +13,7 @@ h1{
 
 main{
     width: 700px;
-    height: auto;
+    height: 1650px;
     margin-left: auto;
     margin-right: auto;
     background-color: #eee;
@@ -33,7 +33,7 @@ li{
 
     text-align: center;
     font-weight: bold;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 .card{
@@ -44,7 +44,12 @@ li{
 }
 
 .card img{
-    object-fit: contain;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.filter{
+    filter: brightness(1.2) saturate(.3);
 }
 
 .header{
@@ -61,6 +66,4 @@ li{
 
 .cite-pse:hover{
     color: #f00;
-
-
 }
